@@ -5,5 +5,5 @@
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  assetPrefix: !debug ? '/gh-pages/' : '',
+  assetPrefix: !debug ? '/gh-pages/' : 'docs',
 }
